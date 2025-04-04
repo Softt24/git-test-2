@@ -3,34 +3,23 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio | Softt24</title>
+  <title>Softt24 Portfolio</title>
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="css/style.css" />
-
-  <!-- AOS Animation CSS -->
+  <!-- AOS CSS -->
   <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
-  <!-- Favicon (optional) -->
-  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-
-  <!-- Smooth scroll -->
-  <style>
-    html {
-      scroll-behavior: smooth;
-    }
-  </style>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
-
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
     <div class="container">
-      <a class="navbar-brand" href="#">Softt24</a>
+      <a class="navbar-brand fw-bold" href="#">Softt24</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -45,84 +34,71 @@
   </nav>
 
   <!-- Hero Section -->
-  <section class="bg-primary text-white text-center py-5">
-    <div class="container px-3">
-      <h1 class="display-4">Hi, I'm Charles Christopher</h1>
-      <p class="lead">A budding web developer learning Git, GitHub & Full-Stack Development</p>
+  <header class="hero text-white text-center d-flex align-items-center">
+    <div class="container">
+      <h1 class="display-3 fw-bold">Hi, I'm Softt24</h1>
+      <p class="lead">Budding Full-Stack Developer | Passionate about Code & Design</p>
     </div>
-  </section>
+  </header>
 
   <!-- About Section -->
   <section id="about" class="container my-5" data-aos="fade-up">
-    <h2>About Me</h2>
-    <p>I’m a passionate self-taught developer with a love for clean design and interactive user experiences.
-       Currently learning HTML, CSS, Bootstrap, JavaScript, Git & GitHub—and building real projects as I grow.
-    </p>
+    <h2 class="text-center mb-4">About Me</h2>
+    <p class="text-center">I'm a self-taught developer learning Git, GitHub, HTML, CSS, JavaScript, and Full-Stack development. This is my first GitHub Pages project and I'm excited to share my journey with you.</p>
   </section>
 
   <!-- Projects Section -->
-  <section id="projects" class="bg-light py-5" data-aos="zoom-in">
+  <section id="projects" class="bg-light py-5" data-aos="fade-up">
     <div class="container">
-      <h2 class="mb-4">Projects</h2>
+      <h2 class="text-center mb-5">Projects</h2>
       <div class="row g-4">
-
+        <!-- Project 1 -->
         <div class="col-md-4">
-          <div class="card h-100 shadow">
+          <div class="card h-100 shadow-sm">
             <div class="card-body">
               <h5 class="card-title">GitHub Portfolio</h5>
-              <p class="card-text">My first portfolio using Git and GitHub Pages.</p>
+              <p class="card-text">My first GitHub-hosted site. Built with HTML, CSS, Bootstrap, and Git.</p>
               <a href="https://softt24.github.io/git-test-2/" class="btn btn-primary" target="_blank">View Project</a>
             </div>
           </div>
         </div>
-
+        <!-- Project 2 -->
         <div class="col-md-4">
-          <div class="card h-100 shadow">
+          <div class="card h-100 shadow-sm">
             <div class="card-body">
               <h5 class="card-title">Weather App</h5>
-              <p class="card-text">Coming soon: Check weather using real-time API data.</p>
+              <p class="card-text">Coming soon: a live weather app using an open weather API.</p>
               <a href="#" class="btn btn-outline-secondary disabled">Coming Soon</a>
             </div>
           </div>
         </div>
-
+        <!-- Project 3 -->
         <div class="col-md-4">
-          <div class="card h-100 shadow">
+          <div class="card h-100 shadow-sm">
             <div class="card-body">
               <h5 class="card-title">Netflix Clone</h5>
-              <p class="card-text">Coming soon: UI clone using React and TMDB API.</p>
+              <p class="card-text">Coming soon: a clone of Netflix UI using React and TMDB API.</p>
               <a href="#" class="btn btn-outline-secondary disabled">Coming Soon</a>
             </div>
           </div>
         </div>
-
       </div>
     </div>
   </section>
 
   <!-- Contact Section -->
   <section id="contact" class="container my-5" data-aos="fade-up">
-    <h2 class="mb-4">Contact</h2>
-    <form>
-      <div class="mb-3">
-        <label for="name" class="form-label">Your Name</label>
-        <input type="text" class="form-control" id="name" placeholder="John Doe" required>
-      </div>
-      <div class="mb-3">
-        <label for="email" class="form-label">Your Email</label>
-        <input type="email" class="form-control" id="email" placeholder="softt781982@gmail.com" required>
-      </div>
-      <div class="mb-3">
-        <label for="message" class="form-label">Message</label>
-        <textarea class="form-control" id="message" rows="4" placeholder="Your message..." required></textarea>
-      </div>
-      <button type="submit" class="btn btn-primary">Send Message</button>
-    </form>
+    <h2 class="text-center mb-4">Contact</h2>
+    <p class="text-center">Feel free to reach out via GitHub or email!</p>
+    <div class="text-center">
+      <a href="https://github.com/Softt24" target="_blank" class="btn btn-dark me-2">GitHub</a>
+      <a href="mailto:your@email.com" class="btn btn-outline-dark">Email Me</a>
+    </div>
   </section>
 
   <!-- Footer -->
   <footer class="bg-dark text-white text-center p-3 mt-5">
-    <p class="mb-0">&copy; 2025 Soft Dev | All rights reserved</p>
+    <p class="mb-0">&copy; 2025 Softt24 | Built with passion and code</p>
   </footer>
 
   <!-- Scripts -->
@@ -132,6 +108,5 @@
   <script>
     AOS.init();
   </script>
-
 </body>
 </html>

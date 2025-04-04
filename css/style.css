@@ -1,41 +1,46 @@
-html {
-  scroll-behavior: smooth;
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  background: #f9f9f9;
+  background-color: #f8f9fa;
   color: #333;
 }
 
-header {
-  background: #333;
-  color: white;
-  padding: 2rem;
-  text-align: center;
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #007bff, #6610f2);
+  min-height: 80vh;
+  padding: 5rem 0;
 }
 
-h2 {
-  margin-top: 1rem;
-  color: #333;
+/* Section Headings */
+section h2 {
+  font-weight: 700;
+  color: #343a40;
 }
 
-ul {
-  padding-left: 1.2rem;
+/* Cards */
+.card {
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-section {
-  padding: 1.5rem;
-  margin: 1rem;
-  background: white;
-  border-radius: 8px;
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
-footer {
-  text-align: center;
-  padding: 1rem;
-  background: #eee;
+/* Buttons */
+.btn {
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
 }

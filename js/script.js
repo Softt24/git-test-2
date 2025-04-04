@@ -1,1 +1,5 @@
-console.log('JavaScript is working!');
+// script.js
+
+document.addEventListener('DOMContentLoaded', () => {
+  console.log('JavaScript loaded successfully!');
+});
