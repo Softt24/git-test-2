@@ -1,6 +1,28 @@
 body {
-  background-color: #f9f9f9;
   font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #333;
+  color: white;
+  padding: 2rem;
   text-align: center;
-  margin-top: 50px;
+}
+
+section {
+  padding: 1.5rem;
+  margin: 1rem;
+  background: white;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #eee;
 }
