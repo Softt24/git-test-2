@@ -14,7 +14,8 @@ body {
 
 /* Hero Section */
 .hero-section {
-  background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fsoftware%2520developer%2F&psig=AOvVaw1tlLlhj0x9p7Uhn6_W7ikh&ust=1743898552212000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIiF7MjOv4wDFQAAAAAdAAAAABAE');
+  background-image: url('https://cdn.pixabay.com/photo/2017/08/10/03/47/developer-2618453_1280.jpg'); /* example direct link */
+  background-size: cover;
   background-position: center;
   height: 100vh;
   display: flex;
